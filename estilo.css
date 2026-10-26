@@ -11,14 +11,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e8e8e8;
+  background: #8077ff;
 }
 
 
 /* Organiza as imagens em três colunas. */
 .galeria {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(4, 200px);
   gap: 20px;
   padding: 20px;
 }
@@ -30,7 +30,7 @@ body {
   height: 200px;
   padding: 0;
   border: none;
-  border-radius: 10px;
+  border-radius: 100px;
 
 
   /* A transparência da imagem revela este fundo branco. */
@@ -109,7 +109,7 @@ body {
 
 /* Escurece a página atrás da imagem ampliada. */
 .ampliacao::backdrop {
-  background: rgb(0 0 0 / 80%);
+  background: rgb(5, 0, 0);
 }
 
 
